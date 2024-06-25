@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Global Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="content-box">
+        <div id="pokemon-info">
+            <img id="pokemon-img" alt="current pokemon" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" />
+            <div id="pokemon-types">
+                <span class="type-box grass">GRASS</span>
+                <span class="type-box poison">POISON</span>
+            </div>
+            <div id="pokemon-description" class="descBox"></div>
+            <div id="weight" class="weightBox">Weight: <span id="pokemon-weight"></span></div>
+            <div id="height" class="heightBox">Height: <span id="pokemon-height"></span></div>
+        </div>
+        <div id="pokemon-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

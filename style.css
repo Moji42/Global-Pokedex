@@ -1,0 +1,184 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://w.wallha.com/ws/14/ogOdyeuZ.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#content-box {
+    width: 500px;
+    height: 500px;
+    border: 10px solid lightgray;
+    border-radius: 10px;
+    background-color: rgb(0, 128, 0);
+    margin: 60px auto 0 auto;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#pokemon-info {
+    width: 250px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('https://w0.peakpx.com/wallpaper/775/147/HD-wallpaper-pokeball-capture-catch-master-nintendo-pokeballs-pokemon-red-thumbnail.jpg');
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#pokemon-info img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#pokemon-list {
+    width: 250px;
+    height: 500px;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2fb2821a-1406-4a1d-9b04-6668f278e944/d8c8vec-f5fe878b-b71f-42d5-b392-80f813feb639.png/v1/fill/w_256,h_192,q_80,strp/pokemon_bw2_pokedex_screen_background_by_phoenixoflight92_d8c8vec-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyIiwicGF0aCI6IlwvZlwvMmZiMjgyMWEtMTQwNi00YTFkLTliMDQtNjY2OGYyNzhlOTQ0XC9kOGM4dmVjLWY1ZmU4NzhiLWI3MWYtNDJkNS1iMzkyLTgwZjgxM2ZlYjYzOS5wbmciLCJ3aWR0aCI6Ijw9MjU2In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.g6v9Sme66vN-GoCXJadzDyaLR1tsZpC_W3YEmJdWjbk');
+    font-size: 18px;
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.pokemon-name {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#pokemon-types {
+    margin-top: 10px;
+}
+
+.type-box {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: #ddd;
+    display: inline-block;
+}
+
+#pokemon-list::-webkit-scrollbar {
+    display: none;
+}
+
+#pokemon-list {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.descBox {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.weightBox {
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+}
+
+.heightBox {
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+}
+
+.type-box.grass {
+    background-color: #67c23a;
+}
+
+.type-box.poison {
+    background-color: #a633a6;
+}
+
+.type-box.fire {
+    background-color: #d26415;
+}
+
+.type-box.water {
+    background-color: #2756c3;
+}
+
+.type-box.bug {
+    background-color: #d2e61b;
+}
+
+.type-box.normal {
+    background-color: #d7d7a3;
+}
+
+
+.type-box.electric {
+    background-color: #987e15;
+}
+
+.type-box.ice {
+    background-color: #27cccc;
+}
+
+.type-box.fighting {
+    background-color: #b30c04;
+}
+
+.type-box.ground {
+    background-color: #bd9527;
+}
+
+.type-box.flying {
+    background-color: #7b69b1;
+}
+
+.type-box.psychic {
+    background-color: #c34a6f;
+}
+
+.type-box.rock {
+    background-color: #b09623;
+}
+
+.type-box.ghost {
+    background-color: #946fce;
+}
+
+.type-box.dark {
+    background-color: #41332a;
+}
+
+.type-box.dragon {
+    background-color: #5c3ca1;
+}
+
+.type-box.steel {
+    background-color: #343484;
+}
+
+.type-box.fairy {
+    background-color: #ffcbd6;
+}
